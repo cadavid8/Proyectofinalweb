@@ -1,0 +1,64 @@
+.fondo {
+    width: 100%;
+    height: auto;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    /* padding: 10px; */
+}
+
+.icono {
+  width: 10%;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    background-color: white;
+    /* text-align: center; */
+   /*  text-decoration: none; */
+    /* display: inline-block; */
+    font-family: 'Louis George Café', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .logo {
+    width: 60px;
+
+  }
+
+#imagenreceta {
+  width: 50%;
+  
+}
+
+.proximamente {
+  background-color: #b2ca93; 
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Louis George Café', sans-serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+
+p {
+  font-family: 'Louis George Café', sans-serif;
+}
+
+#container1 {
+    grid-template-columns: auto auto ;
+    padding: 10px;
+}
