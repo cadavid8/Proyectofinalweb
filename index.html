@@ -13,28 +13,58 @@
 </head>
 <body>
     <!-- div botones -->
-    <div class="container">
-        <div class="grid-item"><input class="logo"  type="image" src="./imagenes/logo-05.png"/></div>
-        <div class="grid-item"><button class="button" type="button">Inicio</button></div>
-        <div class="grid-item"><button class="button" type="button">Nosotros</button></div>  
-        <div class="grid-item"><button class="button" type="button">Dips</button></div>
-        <div class="grid-item"><button class="button" type="button">Contáctanos</button></div>
-        <div class="grid-item"></div> 
-        <div class="grid-item"></div> 
-        <div class="grid-item"></div>  
-        <div class="grid-item"><img class="icono" src="./imagenes/logo usuario-06.png" alt="iconousuario"><button class="button" type="button">Usuario</button></div> 
+    <div id="cabecera"  class="container">
+        <div >
+            <input class="logo"  type="image" src="./imagenes/logo-05.png"/>
+        </div>
+        
+        <div>
+            <a href="#inicio" class="button">Inicio</a>
+        </div>
+        <div>
+            <a href="#nosotros" class="button">Nosotros</a>
+        </div>  
+        <div>
+            <a href="#dips" class="button">Dips</a>
+        </div>
+         
     </div>
+    <!-- fin div botones -->
     <!-- div inicio -->
-    <div >
-        <img class="fondo" src="./fondo.jpg" alt="fondo">
-    </div>
-        <div id="container1" >
-            <p class="grid-item">A continuación encontrarás algunos pasabocas y snacks, <br> con los que puedes acompañar tus Dips</p>
-            <div class="grid-item"><img class="fondo"  id="imagenreceta"  src="./imagenes/recetas.jpg" alt="receta"></div> 
-            <div class="grid-item"><a href="https://www.zenu.com.co/recetas/pasabocas-y-snacks/" target="_blank"><button class="buttonpasabocas" target = "_blank">Pasabocas Y Snacks</button></a></div>      
+    <div id="inicio" >
+            <div>
+                <img class="fondo" src="./fondo.jpg" alt="fondo">
+            </div>
+            <div id="div-receta">
+                <img id="imagenreceta" src="./imagenes/banner-receta.jpg" alt="receta">
+            </div>      
+    </div> 
+    <!-- fin div inicio -->
+    <!-- div nosotros -->
+    <div id="nosotros" class="container" >
+        <div>
+            <img class="logogrande" src="./imagenes/logo-grande.jpg" alt="logo">
         </div> 
-    </div>
+        <div>
+            <p id="texto"><b>Origen</b> es una marca de elaboración de dips artesanales, conocidos como salsas de acompañamiento y busca ofrecer el mejor complemento para snacks disfrutando de sabores tradicionales de la región andina y 100% colombianos.</p>
+            <p id="texto"><b>Misión</b><br>Una empresa dedicada a la elaboración de dips, normalmente conocidos como salsas de acompañamiento, buscamos ofrecerles a nuestros clientes el mejor complemento para sus snacks disfrutando de sabores tradicionales de la región andina y 100% colombianos</p>
+            <p id="texto"><b>Visión</b><br> Llegar ser una marca posicionada fuertemente en el mercado y ser reconocida por los consumidores por nuestra calidad y nuestro valor artesanal, tanto a nivel nacional como internacional; mejorando e innovando a través de los años, sin perder cada una de las cosas que nos hacen únicos.</p>
+        </div> 
+        <h2 class="titulo2">Dips artesanales</h2>
+        <br>
+        <div id="dips" class="container">
+            <div>
+                <img id="dips-item" src="./imagenes/dip-1.png" alt="dip1">
+            </div>
+            <div>
+                <img id="dips-item" src="./imagenes/dips-2.png" alt="dip2">
+            </div>
+            <div>
+                <img id="dips-item" src="./imagenes/dips-3.png" alt="dip3">
+            </div>
+        </div>
 
+    </div>
     <script src="./main.js"></script>
 </body>
 </html>
